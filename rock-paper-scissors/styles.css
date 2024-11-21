@@ -1,0 +1,56 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.button-style {
+    border: none;
+    background-color: wheat;
+    padding: 20px;
+    min-width: 150px;
+    cursor: pointer;
+}
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    width: 400px;
+    margin: 0 auto;
+    border: 1px solid black;
+    padding: 50px;
+}
+
+.results, .choices {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.images-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.images {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+img {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    top: 20px;
+    left: 20px;
+}
+
