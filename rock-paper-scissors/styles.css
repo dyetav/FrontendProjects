@@ -68,6 +68,7 @@ h1 {
     background-color: rgb(209, 209, 150);
     color: rgb(44, 23, 23);
     box-shadow: 0 4px 8px rgba(0, 0, 0, .3);
+    width: 100px;
 }
 
 .results, .choices {

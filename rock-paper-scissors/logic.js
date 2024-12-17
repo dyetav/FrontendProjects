@@ -7,12 +7,6 @@ const resetButton = document.querySelector(".buttons .reset");
 
 const images = document.querySelectorAll(".images-container .images img");
 
-const inputMap = {
-    "scissors": "scissors-emoji.png",
-    "paper": "paper-emoji.png",
-    "rock": "rock-emoji.png"
-}
-
 const inputArray = ["scissors", "paper", "rock"];
 
 function resetScore() {
