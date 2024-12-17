@@ -9,22 +9,37 @@
             <h1>Rock Paper Scissors</h1>
             <div class="images-container">
                 <div class="images">
-                    <img src="./images/rock-emoji.png" alt="">
+                    <img id="rock" src="./images/rock-emoji.png" alt="rock">
                 </div>
                 <div class="images">
-                    <img src="./images/paper-emoji.png" alt="">
+                    <img id="paper" src="./images/paper-emoji.png" alt="paper">
                 </div>
                 <div class="images">
-                    <img src="./images/scissors-emoji.png" alt="">
+                    <img id="scissors" src="./images/scissors-emoji.png" alt="scissors">
                 </div>
             </div>
             <div class="choices">
-                You <span id="mychoice"></span> <span id="computerchoice"></span> Computer 
+                <div class="choice you-choice">
+                    <span>You</span>
+                    <div class="images">
+                        <!-- JAVASCRIPT IMAGE -->
+                    </div>
+                </div>
+                <div class="choice computer-choice">
+                    <span>Computer</span>
+                    <div class="images">
+                        <!-- JAVASCRIPT IMAGE -->
+                    </div>
+                </div> 
             </div>
-            <div class="results"></div>
+            <div class="results">
+                <div class="result">Win <span class="win">0</span></div>
+                <div class="result">Lost <span class="lost">0</span></div>
+                <div class="result">Draw <span class="draw">0</span></div>
+            </div>
             <div class="buttons">
-                <button class="button-style">Reset Score</button>
-                <button class="button-style">Auto Play</button>
+                <button class="button-style reset">Reset Score</button>
+                <button class="button-style auto">Auto Play</button>
             </div>
         </div>
         <script src="./logic.js"></script>

@@ -23,20 +23,20 @@ body {
 
 .tabs {
     background-color: #FFE5E2;
+    position: relative;
 }
 
 .steps {
     display: flex;
     align-items: center;
     height: 80px;
-    overflow: hidden;
 }
 
-.steps:first-child {
+.steps .step:first-child {
     border-top-left-radius: 10px;
 }
 
-.steps:nth-child(3) {
+.steps .step:last-child {
     border-top-right-radius: 10px;
 }
 
@@ -72,3 +72,16 @@ body {
 .step-text {
     margin-top: 20px;
 }
+
+/* to test 
+.tabs::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.85);
+    top: 0;
+    left: 0;
+}
+*/
